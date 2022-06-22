@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "blog",
+      "type": "com.example.kotlinsprintblog.BlogProperties",
+      "sourceType": "com.example.kotlinsprintblog.BlogProperties"
+    },
+    {
+      "name": "blog.banner",
+      "type": "com.example.kotlinsprintblog.BlogProperties$Banner",
+      "sourceType": "com.example.kotlinsprintblog.BlogProperties",
+      "sourceMethod": "getBanner()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "blog.banner.content",
+      "type": "java.lang.String",
+      "sourceType": "com.example.kotlinsprintblog.BlogProperties$Banner"
+    },
+    {
+      "name": "blog.banner.title",
+      "type": "java.lang.String",
+      "sourceType": "com.example.kotlinsprintblog.BlogProperties$Banner"
+    },
+    {
+      "name": "blog.title",
+      "type": "java.lang.String",
+      "sourceType": "com.example.kotlinsprintblog.BlogProperties"
+    }
+  ],
+  "hints": []
+}
